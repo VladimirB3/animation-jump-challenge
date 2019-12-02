@@ -1,0 +1,21 @@
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 0;
+    animation-name: jump;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jump {
+    from {
+        margin-top: 0;
+    }
+    to {
+        margin-top: 100px;
+    }
+}
